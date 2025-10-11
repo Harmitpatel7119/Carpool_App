@@ -1,0 +1,35 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.carpoolapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/start_img"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/start_img"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CarpoolApp"
+        android:forceDarkAllowed="false"
+        tools:ignore="NewApi">
+
+
+<activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".FindActivity"
+            android:exported="false" />
+        <activity android:name=".ActivitySignUp" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+
+    </application>
+
+</manifest>
