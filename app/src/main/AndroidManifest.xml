@@ -1,34 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.carpoolapp">
 
     <application
         android:allowBackup="true"
+        android:forceDarkAllowed="false"
         android:icon="@drawable/start_img"
         android:label="@string/app_name"
         android:roundIcon="@drawable/start_img"
         android:supportsRtl="true"
         android:theme="@style/Theme.CarpoolApp"
-        android:forceDarkAllowed="false"
         tools:ignore="NewApi">
 
 
-<activity
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false"
+            android:label="Profile" />
+
+
+        <activity
+            android:name=".ConfirmActivity"
+            android:exported="false"
+            android:label="Confirm Booking"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".AvailableRidesActivity"
+            android:exported="false"
+            android:label="Available Rides" />
+
+
+        <activity
+            android:name=".FindActivity"
+            android:exported="false"
+            android:label="Find a Ride" />
+
+
+        <activity
+            android:name=".ActivitySignUp"
+            android:exported="false"
+            android:label="Sign Up" />
+
+
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false"
+            android:label="Login" />
+
+
+        <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true"
+            android:label="Carpool App">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity
-            android:name=".FindActivity"
-            android:exported="false" />
-        <activity android:name=".ActivitySignUp" />
-        <activity
-            android:name=".LoginActivity"
-            android:exported="false" />
 
     </application>
 

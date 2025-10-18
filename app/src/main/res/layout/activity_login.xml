@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F5F9FF"
+    android:background="#E0F7FA"
     tools:context=".LoginActivity">
     <androidx.cardview.widget.CardView
         android:id="@+id/cardContainer"

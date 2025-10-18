@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F5FAFF"
+    android:background="#E0F7FA"
     tools:context=".FindActivity">
 
     <androidx.cardview.widget.CardView
