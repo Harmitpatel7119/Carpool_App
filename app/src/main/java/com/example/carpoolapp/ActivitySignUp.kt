@@ -44,6 +44,7 @@ class ActivitySignUp : AppCompatActivity() {
 
                 val intent = Intent(this, FindActivity::class.java)
                 startActivity(intent)
+                finish()
             }
         }
 
