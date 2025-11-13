@@ -9,11 +9,11 @@ It helps users find and share rides easily with a clean and modern interface.
 
 | Welcome | Sign Up | Log In | Find Ride |
 |--------|---------|--------|-----------|
-| <img src="screenshots/welcome.png" width="200"/> | <img src="screenshots/signup.png" width="200"/> | <img src="screenshots/login.png" width="200"/> | <img src="screenshots/findride.png" width="200"/> |
+| <img src="screenshots/Splash.png" width="200"/> | <img src="screenshots/SignUp.png" width="200"/> | <img src="screenshots/Login.png" width="200"/> | <img src="screenshots/Find.png" width="200"/> |
 
 | Available Rides | Confirm Ride | Profile |
 |-----------------|--------------|---------|
-| <img src="screenshots/ridelist.png" width="200"/> | <img src="screenshots/confirmride.png" width="200"/> | <img src="screenshots/profile.png" width="200"/> |
+| <img src="screenshots/AvailableRides.png" width="200"/> | <img src="screenshots/Confirm.png" width="200"/> | <img src="screenshots/Profile.png" width="200"/> |
 
 ---
 
@@ -29,10 +29,10 @@ It helps users find and share rides easily with a clean and modern interface.
 ---
 
 ## 🛠️ Technologies Used
-- **Language:** Java / Kotlin (based on project setup)  
+- **Language:** Kotlin (based on project setup)  
 - **Framework:** Android SDK  
 - **IDE:** Android Studio  
-- **UI Components:** ConstraintLayout, CardView, RecyclerView, EditText, Button  
+- **UI Components:** ConstraintLayout, CardView, EditText, Button  
 - **Design:** Vector Drawables & Custom UI Illustrations  
 
 ---
