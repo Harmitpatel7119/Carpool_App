@@ -9,11 +9,11 @@ It helps users find and share rides easily with a clean and modern interface.
 
 | Welcome | Sign Up | Log In | Find Ride |
 |--------|---------|--------|-----------|
-| <img src="screenshots/Splash.png" width="200"/> | <img src="screenshots/SignUp.png" width="200"/> | <img src="screenshots/Login.png" width="200"/> | <img src="screenshots/Find.png" width="200"/> |
+| <img src="screenshot/Splash.png" width="200"/> | <img src="screenshot/SignUp.png" width="200"/> | <img src="screenshot/Login.png" width="200"/> | <img src="screenshot/Find.png" width="200"/> |
 
 | Available Rides | Confirm Ride | Profile |
 |-----------------|--------------|---------|
-| <img src="screenshots/AvailableRides.png" width="200"/> | <img src="screenshots/Confirm.png" width="200"/> | <img src="screenshots/Profile.png" width="200"/> |
+| <img src="screenshot/AvailableRides.png" width="200"/> | <img src="screenshot/Confirm.png" width="200"/> | <img src="screenshot/Profile.png" width="200"/> |
 
 ---
 
